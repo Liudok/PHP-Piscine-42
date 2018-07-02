@@ -1,0 +1,313 @@
+body {
+		background-color: #b09ced;
+		background-image: url(./imgs/fon.jpg);
+		background-repeat:  no-repeat;
+		background-size: cover;
+		text-align: center;
+		font-family: monospace;
+		color: #000;
+		font-size: 18px;
+	}
+h1 {
+		font-size: 2.5vw;
+		font-family: monospace;
+		font-weight: lighter;
+    }
+
+content {
+    	max-width: 900px;
+    	
+    }
+footer {
+	margin-bottom: 300px;
+}
+.cover {
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.cont {
+	margin-bottom: 300px;
+}
+button {
+	background-color: rgb(114, 214, 82);
+	border-color: rgb(80, 80, 80);
+	border: 1px solid;
+	border-style:none;
+	height: 40px;
+	vertical-align: center;
+	display:inline-block;
+	width:100px;
+	font-size: 11px;
+	color: #FFF;
+	margin-top: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+header button {
+	position: fixed;
+	top: 20px;
+	right: 60px;
+	z-index: 2;
+}
+
+#signin {
+	right: 180px;
+}
+#basket {
+	position: fixed;
+	right: 10px;
+	top: 20px;
+	height: 40px;
+	background-color: rgb(214, 24, 200);
+	width: 50px;
+}
+input[type="text"]{
+	width:200px;
+	height: 40px;
+	display:block;
+	font-size: 1vw;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+input[type="password"]{
+	width:200px;
+	height: 40px;
+	display:block;
+	font-size: 1vw;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+input[type="submit"]{
+	background-color: rgb(214, 24, 200);
+	border-color: rgb(80, 80, 80);
+	border: 1px solid;
+	border-style:none;
+	height: 40px;
+	vertical-align: center;
+	display:inline-block;
+	width:200px;
+	font-size: 0.8vw;
+	margin-top: 20px;
+
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal2 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 40% auto; 
+    padding: 40px 20px;
+    border: 1px solid #888;
+    width: 25%;
+    min-height: 170px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card {
+	width: 400px;
+	height: 300px;
+	margin: 20px auto;
+	background-color: #FFF;
+	position: relative;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.incard {
+	width: 400px;
+	height: 250px;
+}
+.price_block {
+	position: absolute;
+	background-color: #FFF;
+	top: 10px;
+	right: 10px;
+	width: 50px;
+	height: 30px;
+	padding-top: 12px;
+}
+.add {
+	position: absolute;
+	bottom: 0px;
+	right: -20px;
+	height: 50px;
+}
+.footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-color: #FFF;
+	height: 50px;
+	margin-top: 300px;
+}
+.label_category
+{
+	text-align: left;
+}
+.prods_in_basket
+{
+	width: 200px;
+	display: inline-block;
+	height: 50px;
+	background-color: #af4578;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding:10px;
+}
+.price_in_basket
+{
+	width: 100px;
+	height: 50px;
+	display: inline-block;
+	background-color: #FFF;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding:10px;
+}
+.logout {
+	position: fixed;
+	top: 20px;
+	right: 80px;
+	z-index: 5;
+	width: 250px !important;
+}
+.product_list {
+	position: relative;
+	border-width: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 50%;
+	height: 20px;
+	background-color: #aaaaaa;
+	margin: auto;
+}
+
+.product_content {
+	display: block;
+	position: relative;
+	float: left;
+	min-width: 15%;
+	border-width: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.product_button {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-width: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 4px;
+	background-color: red;
+}
+
+.manage_users {
+	width: 100%;
+	height: auto;
+	background-color: pink;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding: 20px;
+}
+input[type="submit"] .manage_users{
+	background-color: green;
+	display: inline-block;
+	width: 30px !important;
+	height: 30px;
+	position: relative;
+	float: right;
+}
+.user_name {
+	color: #aaa;
+}
+.delete_user {
+    color: red;
+    float: right;
+    margin-top: -25px;
+    margin-right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.delete_user:hover,
+.delete_user:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+input[type="submit"] .modify {
+	background-color: green;
+	display: inline-block;
+	width: 30px !important;
+	height: 30px;
+	position: relative;
+	float: right;
+}
+input[type="submit"] .remove {
+	position: relative;
+	float: right;
+	background-color: yellow;
+	display: inline-block;
+	width: 15px;
+	height: 10px;
+}
+.line {
+	width: 100%;
+	background-color: pink;
+	text-align: center;
+}
+.h1 {
+	height: 20px;
+	padding: 20px;
+}

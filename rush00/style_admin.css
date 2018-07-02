@@ -1,0 +1,229 @@
+body {
+		background-color: #b09ced;
+		background-repeat:  no-repeat;
+		background-size: cover;
+		text-align: center;
+		font-family: monospace;
+		color: #000;
+		font-size: 18px;
+	}
+h1 {
+		font-size: 2.5vw;
+		font-family: monospace;
+		font-weight: lighter;
+    }
+.cover {
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.cont {
+	margin-bottom: 300px;
+}
+button {
+	background-color: rgb(114, 214, 82);
+	border-color: rgb(80, 80, 80);
+	border: 1px solid;
+	border-style:none;
+	height: 40px;
+	vertical-align: center;
+	display:inline-block;
+	width:100px;
+	font-size: 11px;
+	color: #FFF;
+	margin-top: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+input[type="text"]{
+	width:200px;
+	height: 40px;
+	display:block;
+	font-size: 1vw;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.label_category
+{
+	text-align: left;
+}
+.prods_in_basket
+{
+	width: 200px;
+	display: inline-block;
+	height: 50px;
+	background-color: #af4578;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding:10px;
+}
+.price_in_basket
+{
+	width: 100px;
+	height: 50px;
+	display: inline-block;
+	background-color: #FFF;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding:10px;
+}
+.logout {
+	position: fixed;
+	top: 20px;
+	right: 80px;
+	z-index: 5;
+	width: 250px !important;
+}
+
+.product_list {
+	position: relative;
+	border-width: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 50%;
+	height: 20px;
+	background-color: #aaaaaa;
+	margin: auto;
+}
+
+.product_content {
+	display: inline-block;
+	position: relative;
+	float: left;
+	min-width: 20%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.adding {
+	display: inline-block;
+	position: relative;
+	float: left;
+	min-width: 15%;
+	margin: 10px 10px 10px 10px;
+	padding: 0px 0px 0px 0px;
+}
+.product_button {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-width: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 4px;
+	background-color: red;
+}
+
+.manage_users {
+	width: 50%;
+	height: auto;
+	background-color: pink;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding: 20px;
+}
+.user_name {
+	color: #aaa;
+}
+.delete_user {
+    background-color: red;
+    margin-right: 10px;
+    width: 20%;
+	height: 30px;
+	border-width: 0px 0px 0px 0px;
+}
+
+.delete_user:hover,
+.delete_user:focus {
+    color: pink;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modify {
+	background-color: #99FFFF;
+	display: inline-block;
+	width: 10%;
+	height: 45px;
+	position: relative;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.remove {
+	position: relative;
+	float: right;
+	background-color: yellow;
+	display: inline-block;
+	width: 10%;
+	height: 45px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.add_to {
+	position: relative;
+	float: right;
+	background-color: #FF33CC;
+	display: inline-block;
+	width: 10%;
+	height: 45px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+.add_user {
+	position: relative;
+	background-color: #FF33CC;
+	display: block;
+	width: 30%;
+	height: 45px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+.line {
+	width: 100%;
+	background-color: pink;
+	text-align: center;
+	height: 60px;
+	padding: 10px;
+}
+.h1 {
+	height: 20px;
+	padding: 20px;
+}
+.text-right {
+	text-align: left;
+	margin-left: 10px;
+	width: 30%;
+	height: 30px;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.make-admin {
+	position: relative;
+	display: inline-block;
+	width: 10%;
+	height: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px 0px 0px 0px;
+}
+.manage_users input[type="text"]{
+	width:100px;
+	height: 30px;
+	display:inline-block;
+	font-size: 1vw;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
