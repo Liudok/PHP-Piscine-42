@@ -1,0 +1,162 @@
+body {
+	background-color: #505050;
+	font-family: Arial;
+	font-size: 1.1vw;
+}
+header {
+	background-color: #909090;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+}
+header img {
+	max-width: 400px;
+	margin-left: auto;
+}
+.cover {
+	max-width: 90%;
+	min-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.rounded {
+	border-radius: 10px;
+	box-shadow: 8px 11px 8px 0 #000;
+	margin-bottom: 15px;
+	background-color: #909090;
+}
+#logo {
+	padding-left: 15px;
+}
+.content {
+	margin-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.for_centring {
+	margin-right: auto;
+	margin-left: auto;
+}
+.right {
+	float: left;
+	width: 7%;
+	min-width: 80px;
+	max-width: 150px;
+	padding-left: 2%;
+	padding-right: 1%;
+	height: 33vh;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
+}
+.left {
+	float:left;
+	width: 7%;
+	min-width: 80px;
+	padding-left: 2%;
+	padding-right: 2%;
+	position: relative;
+	height: 33vh;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
+}
+.midl{
+	float:left;
+	width:73%;
+	height:50vh;
+	padding:1%;
+	margin-left:2%;
+	margin-right: 2%;
+}
+.left img {
+	width: 65px;
+	height: 65px;
+	border: 5px solid #909090;
+}
+.left img:hover {
+	border: 5px solid red;
+	border-radius: 5px;
+	width: 65px;
+	height: 65px;
+}
+.right img {
+	width: 67px;
+	border: 5px solid #909090;
+}
+.right img:hover {
+	border: 5px solid red;
+	border-radius: 10px;
+}
+.lupa {
+	position: absolute;
+	right: 40px;
+	width: 250px;
+	z-index: 1;
+}
+.reload {
+	width: 20px;
+	float: right;
+	margin-right: 10px;
+	top: 10px;
+}
+.close {
+	margin-right: -20px;
+	margin-top: 90px;
+}
+#cluster{
+	width:100%;
+	display:inline-block;
+	margin-left:auto;
+	margin-right: auto;
+	height:100%;
+}
+.bricks {
+	background-image: url("resources/brick.jpg");
+	width: 115%;
+	height: 7vh;
+	margin-left: -15%;
+}
+.green {
+	display:inline-block;
+	background-color: rgb(140, 253, 142);
+	width:37.6%;
+	height:auto;
+	z-index: 2;
+	position: relative;
+	margin-top:-7%;
+	padding-left:0.8%;
+	padding-bottom: 4%;
+}
+#ordinateurs {
+	text-shadow:6px 6px 5.5px red;
+}
+#bigger {
+	font-family: Georgia;
+	font-size: 2vw;
+}
+#italic {
+	margin-top: -4%;
+	margin-bottom: 1%;
+	font-style: italic;
+}
+input[type="text"]{
+	width:74%;
+	height:10%;
+	display:inline-block;
+	margin-top: -1%;
+	margin-right: 4px;
+	font-size: 0.8vw;
+}
+input[type="submit"]{
+	background-color: rgb(214, 214, 214);
+	border-color: rgb(80, 80, 80);
+	border: 1px solid;
+	border-style:none;
+	height: 10%;
+	vertical-align: center;
+	display:inline-block;
+	width:15%;
+	font-size: 0.8vw;
+}

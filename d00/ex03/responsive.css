@@ -1,0 +1,80 @@
+body {
+		background-color: #b09ced;
+		text-align: center;
+		font-family: monospace;
+		color: #000;
+		font-weight: bold;
+		font-size: 1%;
+	}
+	h1 {
+		color: #FFFFFF;
+		font-size: 2.7vw;
+    }
+    h2 {
+    	padding: 0;
+    	margin: 0;
+    	font-size: 1.5vw;
+    }
+    img {
+    	max-width: 400px;
+    	max-height: 250px;
+    	margin-left: auto;
+    }
+    table
+	{
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	td {
+		width: 4%;
+		padding: 0;
+    	margin: 0;
+	}
+	p {
+		
+		padding: 0;
+    	margin: 0;
+	}
+    .cover {
+    	height: 55vh;
+    }
+    .massa {
+		text-align: right;
+		margin-top: 0.4vw;
+		margin-right: 0.4vw;
+    }
+    .num {
+    	text-align: left;
+    	margin-left: 0.4vw;
+    }
+    .light-blue {
+    	background-color: #6fd9f7;
+    }
+    .blue {
+    	background-color: #55a5e1;
+    }
+	.red {
+		background-color: #aa1730;
+	}
+	.orange {
+		background-color: orange;
+	}
+	.yellow {
+		background-color: yellow;
+	}
+	.violet {
+		background-color: violet;
+	}
+	.green {
+		background-color: #c3ce2d;
+	}
+	.sea-wave {
+		background-color: #169193;
+	}
+	.pink {
+		background-color: pink;
+	}
+	.clear {
+		border: 0px solid black;
+	}

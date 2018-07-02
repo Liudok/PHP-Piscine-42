@@ -1,0 +1,86 @@
+
+body {
+	font-family: 'Arial', sans-serif;
+	font-weight: lighter;
+	background-color: #b09ced;
+}
+
+.title {
+	text-align: center;
+	font-size: 19px;
+	color: #6e6e6e;
+}
+
+.panel {
+	margin: 15px auto 16px;
+	max-width: 200px;
+}
+
+.admin-panel {
+	padding: 11px 0;
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	box-shadow: 0 2px 2px rgba( 0, 0, 0, 0.2 );
+}
+
+.admin-panel .text {
+	color: #b09ced;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.admin-panel :hover {
+	cursor: pointer;
+	color: #555555;
+}
+
+.menu-panel {
+	padding: 11px 0;
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	box-shadow: 0 2px 1px rgba( 0, 0, 0, 0.2 );
+	display: none;
+	position: absolute;
+	width: 200px;
+}
+
+.admin-panel:hover ~ .menu-panel {
+	display: block; 
+}
+
+.menu-panel:hover {
+	display: block; 
+}
+
+.menu-panel .row {
+	display: flex;
+	align-items: center;
+	height: 35px;
+}
+
+.menu-panel .column-left {
+	float: left;
+	width: 85%;
+	margin-left: 10px;
+}
+
+.menu-panel a {
+	color: #888888;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menu-panel:hover .row:hover {
+	background: #ebebeb;
+	color: #555555;
+	border-radius: 3px;
+}
+
+.menu-panel:hover a {
+	color: #bebebe;
+}
