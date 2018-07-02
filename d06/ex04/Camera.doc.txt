@@ -1,0 +1,22 @@
+
+<- Camera ----------------------------------------------------------------------
+The Camera class allow us to locate the camera in the "world" mark.
+We compute the "view matrix" by computing the opposite transformation matrix.
+
+An instance can be constructed from an array:
+new Camera( array( 'origin' => $vtxO,
+						   'orientation' => $R,
+						   'width' => 640,
+						   'height' => 480,
+						   'fov' => 60,
+						   'near' => 1.0,
+						   'far' => 100.0) );
+
+All these array members are obligatory, otherwise behavior is undefined.
+
+Has two public functions:
+string __toString();
+string doc();
+
+and a bunch of getters.
+---------------------------------------------------------------------- Camera ->

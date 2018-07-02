@@ -1,0 +1,34 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles the representation of a point in space.
+
+An instance can be contructed from either an array of all axises (with or without 'w' coordinate) and a color:
+new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'color' => $green ) );
+
+Or only with an array of all axises:
+new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );
+
+or
+
+new Vertex( array( 'x' => 9.0, 'y' => 9.0, 'z' => 9.0, 'w' => 3.0 ) );
+
+By default 'w' coordinate is set to 1.
+
+The vertex color will always be an instance of the Color Class.
+
+If x or y or z is not send to constructor - is undefined behaviour.
+
+The class provides the following methods :
+string __toString();
+string doc();
+int setX(int);
+int setY(int);
+int setZ(int);
+int setW(int);
+Color setColor(Color);
+int getX(int);
+int getY(int);
+int getZ(int);
+int getW(int);
+Color getColor(Color);
+---------------------------------------------------------------------- Vertex ->

@@ -1,0 +1,51 @@
+
+<- Vector ----------------------------------------------------------------------
+The Vector class handles the representation of a vector in space.
+
+An instance can be contructed from either an array of two vertexes (origin and destination):
+new Vector( array( 'orig' => $vtxO, 'dest' => $vtxY ) );
+
+Or only with destination vertex:
+new Vector( array( 'dest' => $dest1 ) );
+
+By default 'w' coordinate is set to 0.0.
+
+The vertex color will always be an instance of the Vector Class.
+
+If x or y or z is not send to constructor - is undefined behaviour.
+The class provides the following methods :
+
+float magnitude();
+returns length of vector.
+
+Vector normalize();
+Returns normalized vector;
+
+Vector opposite();
+Returns a vector of opposite direction.
+
+Vector scalarProduct( $k );
+Returns a scalar product of vector and number.
+
+float dotProduct( Vector $rhs );
+return dot product of two vectors.
+
+Vector   add( Vector $rhs );
+Adds two vectors and returns a new Vector instance.
+
+Vector   sub( Vector $rhs );
+Substracts two vectors and returns a new Vector instance.
+
+float cos( Vector $rhs )ж
+Returns a cosin betwen two vectors.
+
+Vector crossProduct( Vector $rhs );
+Returns cross product of two vectors.
+
+string __toString();
+string doc();
+int getX(int);
+int getY(int);
+int getZ(int);
+int getW(int);
+---------------------------------------------------------------------- Vector ->

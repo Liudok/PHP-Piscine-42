@@ -1,0 +1,31 @@
+
+<- Matrix ----------------------------------------------------------------------
+The Matrix class make possible operate transformations, such as apply a scale change, a translation or a rotation to one or several vertices.
+
+An instance can be contructed from an array:
+new Matrix( array( 'preset' => Matrix::IDENTITY ) );
+
+Preset is obligatory, otherwise behavior is undefind.
+
+Has two public functions:
+
+mult(Matrix $rhs) - allows to multiply 2 matrixes. returns new one.
+
+and
+
+transformVertex( Vertex $vtx ) - can be used for verex trasformation.
+
+
+Has range of private methods:
+private function identity($scale)
+private function translation()
+private function rotateX()
+private function rotateY()
+private function rotateZ()
+private function projection()
+Their name say for themselves.
+
+string __toString();
+string doc();
+and a banch of getters.
+---------------------------------------------------------------------- Matrix ->
